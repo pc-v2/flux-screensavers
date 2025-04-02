@@ -25,10 +25,6 @@ log = "0.4"
 raw-window-handle = "0.4"
 sdl2-sys = "0.35.2"
 
-[dependencies.flux]
-git = "https://github.com/pc-v2/flux"
-tag = "v5.0.0"
-
 [target.'cfg(not(windows))'.dependencies.sdl2]
 version = "0.35.2"
 default-features = false

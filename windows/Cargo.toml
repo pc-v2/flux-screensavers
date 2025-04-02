@@ -6,6 +6,7 @@ authors = ["Sander Melnikov <hey@sandydoo.me"]
 repository = "https://github.com/sandydoo/flux-screensavers/"
 edition = "2021"
 build = "build.rs"
+publish = true
 
 [package.metadata.winres]
 ProductName = "Flux"
